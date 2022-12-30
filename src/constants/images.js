@@ -44,4 +44,4 @@ export default {
   sign,
   quote,
   gericht,
-};
+}; 
