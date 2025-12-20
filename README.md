@@ -1,17 +1,5 @@
 # Gericht Restaurant
 
-## 📑 Table of Contents
-
-- [📝 Description](#-description)
-- [✨ Features](#-features)
-- [🛠️ Technologies](#️-technologies)
-- [📂 Project Structure](#-project-structure)
-- [🚀 Installation & Usage](#-installation--usage)
-- [🤝 Contribution](#-contribution)
-- [⚖️ License](#️-license)
-
----
-
 ## 📝 Description
 
 **Gericht Restaurant** is a modern and responsive web application built with **React**. Developed following a tutorial by JavaScript Mastery and deployed on Vercel, it aims to provide an elegant and interactive experience for restaurant visitors, showcasing menus, chef information, history, photo gallery, and contact details.
@@ -19,6 +7,17 @@
 The app includes interactive features such as a **promo video**, **scrollable image gallery**, **detailed menu of wines and cocktails**, and a **footer with contact and social media links**.
 
 ![gericht](https://github.com/user-attachments/assets/db0ce1fc-fddb-45ae-abcb-9444294a3880)
+
+---
+
+## 📑 Table of Contents
+
+- [✨ Features](#-features)
+- [🛠️ Technologies](#️-technologies)
+- [📂 Project Structure](#-project-structure)
+- [🚀 Installation & Usage](#-installation--usage)
+- [🤝 Contribution](#-contribution)
+- [⚖️ License](#️-license)
 
 ---
 
