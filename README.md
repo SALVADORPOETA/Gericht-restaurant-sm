@@ -2,7 +2,7 @@
 
 > Based on a tutorial by **JavaScript Mastery**
 
-**Gericht Restaurant** is a modern and responsive web application built with **React**. Developed following a tutorial by JavaScript Mastery and deployed on Vercel, it aims to provide an elegant and interactive experience for restaurant visitors, showcasing menus, chef information, history, photo gallery, and contact details.
+**Gericht Restaurant** is a modern and responsive web application built with **React**. It aims to provide an elegant and interactive experience for restaurant visitors, showcasing menus, chef information, history, photo gallery, and contact details.
 
 The app includes interactive features such as a **promo video**, **scrollable image gallery**, **detailed menu of wines and cocktails**, and a **footer with contact and social media links**.
 
