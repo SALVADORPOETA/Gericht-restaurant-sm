@@ -117,7 +117,7 @@ This project is currently **not open for contributions**, but you can reach out 
 
 ## ⚖️ License
 
-This is a portfolio project by **Salvador Martínez**. No commercial use is intended.
+This is a personal portfolio project by Salvador Martinez based on a JavaScript Mastery tutorial. No commercial use intended.
 
 ---
 
