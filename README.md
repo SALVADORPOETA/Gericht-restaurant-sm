@@ -1,12 +1,5 @@
 # Gericht Restaurant
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-SALVADOR%20MARTINEZ-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/salvador-martinez-sm/)
-[![GitHub](https://img.shields.io/badge/GitHub-Gericht--restaurant--sm-black?style=flat&logo=github)](https://github.com/SALVADORPOETA/Gericht-restaurant-sm)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/)
-[![CSS3](https://img.shields.io/badge/CSS3-Flexbox-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-
----
-
 ## 📑 Table of Contents
 
 - [📝 Description](#-description)
