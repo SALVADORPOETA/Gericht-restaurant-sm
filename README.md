@@ -19,6 +19,8 @@ The app includes interactive features such as a **promo video**, **scrollable im
 - [🤝 Contribution](#-contribution)
 - [⚖️ License](#️-license)
 
+<img width="761" height="625" alt="gericht1" src="https://github.com/user-attachments/assets/2defe07f-41cc-4304-8c6f-2da9f2403b61" />
+
 ---
 
 ## ✨ Features
@@ -34,6 +36,8 @@ The app includes interactive features such as a **promo video**, **scrollable im
 - **Footer**: Newsletter subscription, working hours, and social media links.
 - **Fully Responsive**: Optimized for desktops, tablets, and mobile devices.
 
+<img width="757" height="623" alt="gericht2" src="https://github.com/user-attachments/assets/5fcb5bb4-69ad-4896-8858-6ca4f893fe89" />
+
 ---
 
 ## 🛠️ Technologies
@@ -42,6 +46,8 @@ The app includes interactive features such as a **promo video**, **scrollable im
 - **Styling**: CSS Flexbox
 - **Assets**: Local images, icons, and video
 - **Version Control**: Git & GitHub
+
+<img width="761" height="625" alt="gericht3" src="https://github.com/user-attachments/assets/be18ed66-b426-4ed7-96b4-8edaab7f2724" />
 
 ---
 
@@ -113,11 +119,15 @@ npm run build
 
 This project is currently **not open for contributions**, but you can reach out via [LinkedIn](https://www.linkedin.com/in/salvador-martinez-sm/) for professional feedback or inquiries.
 
+<img width="759" height="625" alt="gericht5" src="https://github.com/user-attachments/assets/58614090-dbee-467b-a9ec-3c211954c810" />
+
 ---
 
 ## ⚖️ License
 
 This is a personal portfolio project by Salvador Martinez based on a JavaScript Mastery tutorial. No commercial use intended.
+
+<img width="763" height="627" alt="gericht6" src="https://github.com/user-attachments/assets/132ab210-32c2-4561-9c74-29a55f82ac63" />
 
 ---
 
