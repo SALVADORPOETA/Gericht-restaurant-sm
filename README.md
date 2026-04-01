@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# Gericht Restaurant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Based on a tutorial by **JavaScript Mastery**
 
-## Available Scripts
+**Gericht Restaurant** is a modern and responsive web application built with **React**. It aims to provide an elegant and interactive experience for restaurant visitors, showcasing menus, chef information, history, photo gallery, and contact details.
 
-In the project directory, you can run:
+The app includes interactive features such as a **promo video**, **scrollable image gallery**, **detailed menu of wines and cocktails**, and a **footer with contact and social media links**.
 
-### `npm start`
+![gericht](https://github.com/user-attachments/assets/db0ce1fc-fddb-45ae-abcb-9444294a3880)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📑 Table of Contents
 
-### `npm test`
+- [✨ Features](#-features)
+- [🛠️ Technologies](#️-technologies)
+- [📂 Project Structure](#-project-structure)
+- [🚀 Installation & Usage](#-installation--usage)
+- [🤝 Contribution](#-contribution)
+- [⚖️ License](#️-license)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="761" height="625" alt="gericht1" src="https://github.com/user-attachments/assets/2defe07f-41cc-4304-8c6f-2da9f2403b61" />
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Header & Hero Section**: Eye-catching hero with slogan and menu button.
+- **About Us & Our History**: Restaurant introduction and historical information.
+- **Chef Section**: Chef's message and signature.
+- **Special Menu**: List of wines, beers, and cocktails with prices and descriptions.
+- **Gallery**: Instagram-style photo gallery with horizontal scroll and navigation arrows.
+- **Intro Video**: Background video with play/pause functionality.
+- **Awards & Laurels**: Showcasing restaurant recognition.
+- **Find Us / Contact**: Address, opening hours, and contact info.
+- **Footer**: Newsletter subscription, working hours, and social media links.
+- **Fully Responsive**: Optimized for desktops, tablets, and mobile devices.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="757" height="623" alt="gericht2" src="https://github.com/user-attachments/assets/5fcb5bb4-69ad-4896-8858-6ca4f893fe89" />
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Technologies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend**: React 18, React Icons
+- **Styling**: CSS Flexbox
+- **Assets**: Local images, icons, and video
+- **Version Control**: Git & GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="761" height="625" alt="gericht3" src="https://github.com/user-attachments/assets/be18ed66-b426-4ed7-96b4-8edaab7f2724" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📂 Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+gericht-restaurant-sm/
+│
+├─ src/
+│  ├─ assets/             # Images and video
+│  ├─ components/         # Reusable components
+│  │  ├─ Footer/
+│  │  ├─ MenuItem/
+│  │  ├─ Navbar/
+│  │  └─ SubHeading/
+│  ├─ container/          # Main sections of the page
+│  │  ├─ AboutUs/
+│  │  ├─ Chef/
+│  │  ├─ FindUs/
+│  │  ├─ Footer/
+│  │  ├─ Gallery/
+│  │  ├─ Header/
+│  │  ├─ Intro/
+│  │  ├─ Laurels/
+│  │  └─ Menu/
+│  ├─ constants/          # Images, data, and video
+│  ├─ App.jsx
+│  └─ index.js
+│
+├─ public/
+├─ package.json
+└─ README.md
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Installation & Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone the repository:
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/SALVADORPOETA/Gericht-restaurant-sm.git
+cd Gericht-restaurant-sm
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run in development mode:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 
-### Deployment
+Create a production build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run build
+```
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contribution
+
+This project is currently **not open for contributions**, but you can reach out via [LinkedIn](https://www.linkedin.com/in/salvador-martinez-sm/) for professional feedback or inquiries.
+
+<img width="759" height="625" alt="gericht5" src="https://github.com/user-attachments/assets/58614090-dbee-467b-a9ec-3c211954c810" />
+
+---
+
+## ⚖️ License
+
+This is a personal portfolio project by Salvador Martinez based on a JavaScript Mastery tutorial. No commercial use intended.
+
+<img width="763" height="627" alt="gericht6" src="https://github.com/user-attachments/assets/132ab210-32c2-4561-9c74-29a55f82ac63" />
+
+---
+
+**Made by Salvador Martinez**
