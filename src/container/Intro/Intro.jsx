@@ -23,6 +23,7 @@ const Intro = () => {
         src={meal}
         ref={vidRef}
         type="video/mp4"
+        title="A man and a woman having dinner in the restaurant."
         loop
         muted
         onError={(e) => console.error('Video failed to load', e)}
