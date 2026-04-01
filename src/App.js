@@ -15,16 +15,18 @@ import { Navbar } from './components'
 import './App.css'
 
 const App = () => (
-  <div>
+  <div id="top">
     <Navbar />
-    <Header />
-    <AboutUs />
-    <SpecialMenu />
-    <Chef />
-    <Intro />
-    <Laurels />
-    <Gallery />
-    <FindUs />
+    <main>
+      <Header />
+      <AboutUs />
+      <SpecialMenu />
+      <Chef />
+      <Intro />
+      <Laurels />
+      <Gallery />
+      <FindUs />
+    </main>
     <Footer />
   </div>
 )
