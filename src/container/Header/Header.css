@@ -1,16 +1,41 @@
 .app__header {
-    background-color: var(--color-black);
+  background-color: var(--color-black);
 }
 
 .app__header-h1 {
-    font-family: var(--font-base);
-    color: var(--color-golden);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    line-height: 117px;
-    font-size: 90px;
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 90px;
 }
 
 .app__header-img {
-    width: 80%;
+  width: 80%;
+}
+
+.app__wrapper_img img {
+  width: 100%;
+  height: auto; /* Esto anula el height="497" del HTML en favor de la proporción */
+  max-width: 450px; /* Evita que la imagen crezca más de su tamaño real */
+  display: block;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header {
+    flex-direction: column;
+  }
+
+  .app__wrapper_img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .app__wrapper_img img {
+    width: 80%; /* Para que no sea gigante en móvil */
+    margin: 0 auto;
+    display: block;
+  }
 }
