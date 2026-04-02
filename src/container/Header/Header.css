@@ -18,9 +18,10 @@
 .app__wrapper_img img {
   width: 100%;
   height: auto; /* Esto anula el height="497" del HTML en favor de la proporción */
-  max-width: 450px; /* Evita que la imagen crezca más de su tamaño real */
+  aspect-ratio: 451 / 497;
   display: block;
   object-fit: contain;
+  max-width: 451px; /* Evita que la imagen crezca más de su tamaño real */
 }
 
 @media screen and (max-width: 1150px) {
