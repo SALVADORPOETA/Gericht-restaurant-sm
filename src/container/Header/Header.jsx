@@ -20,7 +20,13 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header img" fetchpriority="high" />
+      <img
+        src={images.welcome}
+        alt="header img"
+        width="451"
+        height="497"
+        fetchpriority="high"
+      />
     </div>
   </div>
 )
