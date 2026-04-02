@@ -11,17 +11,21 @@
   font-size: 90px;
 }
 
+/* Esta es la clase que aplicaste en el div contenedor del Header.jsx */
 .app__header-img {
   width: 80%;
 }
 
 .app__wrapper_img img {
-  width: 100%;
-  height: auto; /* Esto anula el height="497" del HTML en favor de la proporción */
+  width: 100%; /* Ocupa el ancho disponible del contenedor */
+  height: auto; /* Mantiene la proporción */
   aspect-ratio: 451 / 497;
   display: block;
   object-fit: contain;
-  max-width: 451px; /* Evita que la imagen crezca más de su tamaño real */
+
+  /* ESCRITORIO: Forzamos a que no sea menor ni mayor a su tamaño original */
+  max-width: 451px;
+  min-width: 451px; /* Evita que se encoja si el contenedor flex es pequeño */
 }
 
 @media screen and (max-width: 1150px) {
@@ -32,15 +36,25 @@
   .app__wrapper_img {
     margin-top: 5rem;
     width: 100%;
-    display: flex;         /* Asegura que el margen auto funcione */
+    display: flex; /* Asegura que el margen auto funcione */
     justify-content: center;
   }
 
   .app__wrapper_img img {
-    width: 80%;            /* Se adapta al ancho del móvil/tablet */
-    max-width: 450px;      /* No permite que se pixelee en tablets grandes */
-    height: auto !important; /* El !important asegura que ignore el height="497" del HTML */
+    /* MÓVIL: Quitamos la restricción de min-width para que sea responsivo */
+    width: 80%;
+    min-width: 0; /* Importante: reseteamos el valor de escritorio */
+    max-width: 450px;
+    height: auto !important;
     aspect-ratio: 451 / 497;
     margin: 0 auto;
+  }
+}
+
+/* Ajustes adicionales para pantallas muy pequeñas (opcional pero recomendado) */
+@media screen and (max-width: 650px) {
+  .app__header-h1 {
+    font-size: 60px;
+    line-height: 70px;
   }
 }
