@@ -32,11 +32,15 @@
   .app__wrapper_img {
     margin-top: 5rem;
     width: 100%;
+    display: flex;         /* Asegura que el margen auto funcione */
+    justify-content: center;
   }
 
   .app__wrapper_img img {
-    width: 80%; /* Para que no sea gigante en móvil */
+    width: 80%;            /* Se adapta al ancho del móvil/tablet */
+    max-width: 450px;      /* No permite que se pixelee en tablets grandes */
+    height: auto !important; /* El !important asegura que ignore el height="497" del HTML */
+    aspect-ratio: 451 / 497;
     margin: 0 auto;
-    display: block;
   }
 }
