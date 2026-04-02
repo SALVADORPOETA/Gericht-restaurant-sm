@@ -20,13 +20,23 @@ const Header = () => (
     </div>
 
     <div className="app__wrapper_img">
-      <img
-        src={images.welcome}
-        alt="header img"
-        width="451"
-        height="497"
-        fetchpriority="high"
-      />
+      <picture>
+        {/* Si la pantalla es de menos de 768px, carga la versión pequeña */}
+        <source
+          media="(max-width: 767px)"
+          srcSet={
+            images.welcome_mobile
+          } /* Una versión de la imagen de 350px de ancho */
+        />
+        {/* Por defecto (Escritorio), carga la original */}
+        <img
+          src={images.welcome}
+          alt="header img"
+          width="451"
+          height="497"
+          fetchpriority="high"
+        />
+      </picture>
     </div>
   </div>
 )
